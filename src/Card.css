@@ -1,0 +1,87 @@
+/* Card.css */
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .parlour-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0;
+  }
+  
+  .parlour-name {
+    font-size: 1.5rem;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .parlour-price {
+    font-size: 1.2rem;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #555555;
+    margin: 15px 0;
+    line-height: 1.5;
+  }
+  
+  .read-more {
+    color: #ff5722;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    color: #e64a19;
+  }
+  
+  .red-bttn {
+    background-color: #d32f2f;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .red-bttn:hover {
+    background-color: #b71c1c;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .red-bttn:active {
+    transform: translateY(0);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
